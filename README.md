@@ -72,6 +72,17 @@ Ensure you have the following installed:
 git clone https://github.com/your-username/devops-capstone.git
 cd devops-capstone
 
-#### **Step 2: Deploy AWS Infrastructure using Terraform**
+#### **Step 2: Deploy AWS Infrastructure using Terraform**  
+Navigate to the `terraform` directory and initialize Terraform:  
+```bash
+cd terraform/
+terraform init
 
+Apply the configuration to provision AWS resources, including an EC2 instance, EKS cluster, VPC, and security groups:
+
+bash
+Copy
+Edit
+terraform apply -auto-approve
+Once completed, Terraform will output the necessary details like the EKS cluster name, EC2 instance public IP, and VPC details.
 

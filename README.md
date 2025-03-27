@@ -2,6 +2,9 @@
 
 ## **CI/CD Pipeline | Kubernetes | AWS | Terraform | Docker | Monitoring**  
 
+### **Project Architecture**  
+![Untitled Diagram](https://github.com/user-attachments/assets/538ea37e-d58c-43a1-a081-b6c1ae305933)
+
 ### **Project Overview**  
 This project demonstrates a **fully automated DevOps workflow** integrating:  
 - **GitHub** – Version control & code repository  
